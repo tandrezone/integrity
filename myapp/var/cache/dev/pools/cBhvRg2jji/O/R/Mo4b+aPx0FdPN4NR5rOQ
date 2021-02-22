@@ -1,0 +1,54 @@
+<?php //Proxies___CG___App_Entity_Request
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'Proxies\\__CG__\\App\\Entity\\Request',
+                '__initializer__',
+                '__cloner__',
+                '__isInitialized__',
+                'lazyPropertiesNames',
+                'lazyPropertiesDefaults',
+                'id',
+                'requestUrl',
+                'redirectUrl',
+                'time',
+                'request_url',
+                'redirect_url',
+            ],
+            'attributesMetadata' => [
+                [
+                    '__initializer__' => $o[1],
+                    '__cloner__' => $o[2],
+                    '__isInitialized__' => $o[3],
+                    'lazyPropertiesNames' => $o[4],
+                    'lazyPropertiesDefaults' => $o[5],
+                    'id' => $o[6],
+                    'requestUrl' => $o[7],
+                    'redirectUrl' => $o[8],
+                    'time' => $o[9],
+                    'request_url' => $o[10],
+                    'redirect_url' => $o[11],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

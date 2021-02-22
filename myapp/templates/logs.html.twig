@@ -1,0 +1,39 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Logs{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row"><div class="col text-center h1">Logs</div></div>
+        <hr/>
+        <div class="row"><div class="col text-center">{{ joke }}</div></div>
+        <div class="row"><div id="joke" class="col text-center"></div></div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Request Url</th>
+                        <th scope="col">Redirect Url</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for request in requests %}
+                        <tr>
+                            <td><a href="#{{ request.getId }}">{{ request.getId }}</a></td>
+                            <td><a href="#{{ request.getId }}">{{ request.getRequestUrl }}</a></td>
+                            <td><a href="#{{ request.getId }}">{{ request.getRedirectUrl }}</a></td>
+                            <td><a href="#{{ request.getId }}">{{ request.getTime }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

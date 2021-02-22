@@ -1,0 +1,39 @@
+<?php //App_Entity_Request
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Request',
+                'id',
+                'request_url',
+                'redirect_url',
+                'time',
+                'requestUrl',
+                'redirectUrl',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'request_url' => $o[2],
+                    'redirect_url' => $o[3],
+                    'time' => $o[4],
+                    'requestUrl' => $o[5],
+                    'redirectUrl' => $o[6],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

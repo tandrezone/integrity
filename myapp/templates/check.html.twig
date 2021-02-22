@@ -1,0 +1,46 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Check{% endblock %}
+{% block content %}
+    {# read and display all flash messages #}
+    {% for label, messages in app.flashes %}
+        {% for message in messages %}
+            <div class="alert alert-{{ label }}" role="alert">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endfor %}
+    <div class="container-fluid">
+        <div class="row"><div class="col text-center h1">Check</div></div>
+    <hr/>
+        <div class="row">
+            <div class="col">
+                <form method="POST" action="{{ path('check') }}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Url to Check</label>
+                        <input type="text" name="url" class="form-control" placeholder="Enter url"></div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Char</th>
+                        <th scope="col">Occurrence</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for char in chars %}
+                        <tr>
+                            <td>{{ char[0] }}</td>
+                            <td>{{ char[1] }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

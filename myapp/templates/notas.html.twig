@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Notas{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row"><div class="col text-center h1">Notas</div></div>
+        <hr/>
+        <div class="row">
+            <div class="container">
+                <div class="row font-weight-bold">Challenge</div>
+
+                <div class="row">
+                    <ul>
+                        <li>O comando é php bin/console url:analizer {url}</li>
+                        <li>O script remove letras, espaços e caracters de control usei o regex \p{L}|\p{Z}|p\{C} documentação aqui: https://www.regular-expressions.info/unicode.html</li>
+                        <li>Os testes apenas foram feitos para a camada de negocio, deveria ter feito para tudo porem por uma questao de prioritizaçao resolvi apenas fazer para estes</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
