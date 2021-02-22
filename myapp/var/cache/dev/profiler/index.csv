@@ -852,3 +852,13 @@ a68c02,172.21.0.1,GET,http://localhost:8000/joke,1613991932,,200
 f5837d,172.21.0.1,POST,http://localhost:8000/top20,1613991935,,200
 7d6102,172.21.0.1,GET,http://localhost:8000/notas,1613991935,,200
 3ee0d5,172.21.0.1,GET,http://localhost:8000/joke,1613991937,,200
+a582f7,172.21.0.1,GET,http://localhost:8000/notas,1613992705,,200
+8b4656,172.21.0.1,GET,http://localhost:8000/joke,1613992707,,200
+2a823d,172.21.0.1,POST,http://localhost:8000/top20,1613992709,,200
+c15dfd,172.21.0.1,GET,http://localhost:8000/,1613992709,,200
+8b714c,172.21.0.1,POST,http://localhost:8000/top20,1613992710,,200
+ee65cd,172.21.0.1,GET,http://localhost:8000/,1613992711,,200
+fcf95e,172.21.0.1,GET,http://localhost:8000/joke,1613992712,,200
+066922,172.21.0.1,POST,http://localhost:8000/top20,1613992713,,200
+a2ef59,172.21.0.1,GET,http://localhost:8000/logs,1613992714,,200
+fbf777,172.21.0.1,GET,http://localhost:8000/joke,1613992715,,200
